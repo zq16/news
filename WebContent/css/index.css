@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#page{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+#top{
+	padding: 0px 30px;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+#top ul{
+	display: inline-block;
+}
+#top .nav{
+	display: inline-block;
+}
+#top .nav li{
+	list-style-type: none;
+	color: black;
+	line-height: 70px;
+	font-size: 18px;
+	float: left;
+	cursor: pointer;
+	padding: 0px 15px;
+}
+#top .nav li:hover{
+	color: #4889f3;
+}
+#top .nav span{
+	display: inline-block;
+}
+#top .nav .header{
+	font-weight: bold;
+	border-bottom: 3px solid #4889f3;
+}
+#top .tp{
+	float: right;
+	margin-top: 28px;
+}
+#top .tp a{
+	line-height: 20px;
+	padding: 6px;
+	border: 1px solid rgb(235,235,235);
+	border-radius: 10px;
+	color: white;
+	background-color: #379BE9;
+	text-decoration: none;
+}
+#top .tp a:hover{
+	color: #0C4DB7;
+	background-color: white;
+}
+#content{
+	padding-top: 50px;
+	width: 1100px;
+	height: 100%;
+}
+#content a{
+	color: black;
+	text-decoration: none;
+}
+#content .title{
+	height: 43px;
+	border-bottom: 1px solid #bfcce5;
+	margin-bottom: 30px;
+}
+#content .title h2{
+	float: left;
+	color: #5184eb;
+	font-size: 20px;
+	line-height: 39px;
+	border-bottom: 4px solid #5184eb;
+}
+#content .title #title-inform{
+	float: right;
+	font-size: 15px;
+	line-height: 45px;
+}
+#content .c-img{
+	float: left;
+	width: 252px;
+	height: 150px;
+	overflow: hidden;
+}
+#content img{
+	float: left;
+	width: 252px;
+	height: 150px;
+	transition: all 1s;
+}
+#content img:hover{
+	transform: scale(1.15,1.15);
+}
+#content #newsContent li{
+	list-style-type: none;
+	height: 150px;
+	border-bottom: 1px solid #bfcce5;
+}
+#content #newsContent li:hover{
+	background-color: rgb(240,240,240);
+}
+#content .text{
+	padding: 10px;
+	width: 800px;
+	display: inline-block;
+	float: left;
+}
+#content .text .content-title{
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	width: 670px;
+	height: 30px;
+}
+#content .text .content-title:hover{
+	color: #5184eb;
+}
+#content .text .content-summary{
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	width: 670px;
+	height: 80px;
+	font-size: 14px;
+	color: rgb(100,100,100);
+}
+#content .text .content-tag{
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	color: gray;
+	width: 670px;
+}
+#content .text .content-share{
+	float: right;
+	display: inline-block;
+	width: 32px;
+	height: 18px;
+	padding-left: 20px;
+	margin-right: 16px;
+	font-size: 14px;
+	background: url(../img/icon_share.png) no-repeat;
+	background-position: 0px 2px;
+	background-size: 16px 16px;
+}
+#content .text .content-share:hover{
+	color: #5184eb;
+	background: url(../img/icon_share_blue.png) no-repeat;
+	background-position: 0px 2px;
+	background-size: 16px 16px;
+}
+#content .text .content-comment{
+	float: right;
+	display: inline-block;
+	width: 32px;
+	height: 18px;
+	padding-left: 20px;
+	font-size: 14px;
+	background: url(../img/icon_comment.png) no-repeat;
+	background-position: 0px 2px;
+	background-size: 16px 16px;
+}
+#content .text .content-comment:hover{
+	color: #5184eb;
+	background: url(../img/icon_comment_blue.png) no-repeat;
+	background-position: 0px 2px;
+	background-size: 16px 16px;
+}
+#pageChoice{
+	margin-left: 150px;
+	margin-top: 30px;
+	height: 80px;
+}
+#pageChoice span,#pageChoice ul,#pageChoice select{
+	float: left;
+}
+#pageChoice span{
+	margin-right: 5px;
+}
+#pageChoice ul{
+	display: inline-block;
+}
+#pageChoice li{
+	float: left;
+	list-style-type: none;
+	margin-right: 5px;
+}
+#pageChoice li a{
+	display: inline-block;
+	font-size: 18px;
+	width: 28px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background-color: #379BE9;
+	text-align: center;
+	text-decoration: none;
+}
+#pageChoice li a:hover{
+	color: #0C4DB7;
+	background-color: whitesmoke;	
+}
+#pageChoice .func a{
+	display: inline-block;
+	font-size: 20px;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background-color: #379BE9;
+	text-align: center;
+	text-decoration: none;
+	border-right: 2px solid #0C4DB7;
+	border-bottom: 2px solid #0C4DB7;
+}
+#pageChoice .func a:hover{
+	color: #0C4DB7;
+	background-color: whitesmoke;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+#pageChoice .tag{
+	color: dimgray;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+#pageChoice select{
+	margin-top: 10px;
+	font-size: 18px;
+	padding-left: 10px;
+	width: 60px;
+	margin-right: 10px;
+	outline: none;
+}
+#footer{
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+}
+#footer .copy{
+	font-size: 14px;
+	color: grey;
+}

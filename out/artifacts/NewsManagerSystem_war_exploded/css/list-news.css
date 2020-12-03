@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#content{
+	padding: 20px;
+	border: 1px solid #C7C7C7;
+	border-radius: 10px;
+	width: 1240px;
+}
+#content select{
+	margin-top: 10px;
+	font-size: 18px;
+	height: 30px;
+	padding-left: 5px;
+	width: 70px;
+	margin-right: 5px;
+	outline: none;
+}
+#delSelect{
+	width: 72px;
+	height: 30px;
+}
+.modify,.del{
+	cursor: pointer;
+}
+.modify:hover,.del:hover{
+	text-decoration: underline;
+}
+.modify{
+	color: #0000ff;
+}
+.modify:hover{
+	color: #040495;
+}
+.del{
+	color: #ff0000;
+}
+.del:hover{
+	color: #860404;
+}
+th{
+	border: 1px solid #d4d4d4;
+	height: 50px;
+	width: 100px;
+}
+td{
+	text-align: center;
+	border: 1px solid #d4d4d4;
+}
+.ntitle{
+	float: left;
+	resize: none;
+	outline: none;
+}
+.nsummary{
+	float: left;
+	width: 150px;
+	resize: none;
+	outline: none;
+}
+.ncontent{
+	float: left;
+	width: 250px;
+	resize: none;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+textarea{
+	border: 0;
+	height: 100px;
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+.npicpath{
+	float: left;
+	width: 150px;
+	resize: none;
+	outline: none;
+}
+#pageChoice{
+	margin-left: 150px;
+	margin-top: 30px;
+	height: 80px;
+}
+#pageChoice span,#pageChoice ul,#pageChoice select{
+	float: left;
+}
+#pageChoice span{
+	margin-right: 5px;
+}
+#pageChoice ul{
+	display: inline-block;
+}
+#pageChoice li{
+	float: left;
+	list-style-type: none;
+	margin-right: 5px;
+}
+#pageChoice li a{
+	display: inline-block;
+	font-size: 18px;
+	width: 28px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background-color: #379BE9;
+	text-align: center;
+	text-decoration: none;
+}
+#pageChoice li a:hover{
+	color: #0C4DB7;
+	background-color: whitesmoke;
+}
+#pageChoice .func a{
+	display: inline-block;
+	font-size: 20px;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background-color: #379BE9;
+	text-align: center;
+	text-decoration: none;
+	border-right: 2px solid #0C4DB7;
+	border-bottom: 2px solid #0C4DB7;
+}
+#pageChoice .func a:hover{
+	color: #0C4DB7;
+	background-color: whitesmoke;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+#pageChoice .tag{
+	color: dimgray;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+#pageChoice select{
+	margin-top: 10px;
+	font-size: 18px;
+	padding-left: 10px;
+	width: 60px;
+	margin-right: 10px;
+	outline: none;
+}

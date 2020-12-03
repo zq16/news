@@ -1,0 +1,9 @@
+#info p{
+	width: 600px;
+	font-size: 24px;
+	padding: 20px;
+	color: white;
+	background-color: #4889F3;
+	border-bottom: 3px solid #0C4DB7;
+	border-right: 3px solid #0C4DB7;
+}
